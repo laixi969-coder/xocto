@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "company_id": "7B1C2A38-A4D3-43A7-B114-8BD0553A82C5",
+  "round_fingerprint": "2cbcb10427195ecdffe972f37f559b4bae00d6abf32673f665816e60c0300240",
+  "last_attempt": "2026-11-28",
+  "status": "ready",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Pippa Labs develops infrastructure that enables AI agents to securely communicate, collaborate and transact across the web.",
+      "checked_on": "2026-11-28"
+    },
+    {
+      "url": "https://www.pippa-labs.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "Pippa Labs · Where Agents Meet Manifesto Where Agents Meet Trusted infrastructure for the agentic web, enabling sovereign agents to securely communicate, collaborate and transact. Read our manifesto © 2026 Pippa Labs Ltd. All rights reserved Contact LinkedIn Privacy policy"
+    }
+  ],
+  "fingerprint": "c2b605cab9ee38c3389c6b61cbe8cbd826abea16de08ef6e6cb264d6349c2fc1"
+}

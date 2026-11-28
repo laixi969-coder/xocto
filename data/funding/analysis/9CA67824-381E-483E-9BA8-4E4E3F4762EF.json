@@ -1,0 +1,79 @@
+{
+  "company_id": "9CA67824-381E-483E-9BA8-4E4E3F4762EF",
+  "zh": {
+    "summary": "SOLISTIQ 以自研基础模型 Q-Foundry 为内核，面向工业与商业企业提供从需求预测到自动补货建议的 AI 库存决策闭环。",
+    "judgment": "把库存优化从逐条规则引擎升级为单一预训练基础模型，若 24% 降误差与 15–25% 降库存的公司披露数据在客户侧得到验证，将直接切中制造与贸易企业最敏感的营运资本痛点；但该验证目前仅有公司自述，尚无独立审计或第三方案例支撑。",
+    "replaces": "传统 WMS/ERP 中人工维护的再订货点与 ABC 分类规则，以及依赖采购员经验逐品类判断补货量与安全库存的周期。",
+    "segment": "中大型工业及商业零售的 SKU 级库存与补货决策，尤其是品类宽、供应商多、含阶梯价与最小起订量约束的场景。",
+    "product": "核心产品 Q-Foundry 是一个在 250 万产品、15 亿数据点上预训练的需求预测基础模型（公司披露），可识别趋势、季节性、离群点，并纳入天气、节假日、搜索趋势等外部因子；其下游模块 Agent Q 将预测转化为带解释的自动补货建议，同时优化阶梯价、最小起订量、仓储成本等多因素，用户最终审批放行。公司强调该模型为欧洲自研、运行于德国维尔茨堡自有硬件，定位为数据主权产品。功能边界目前限于需求预测与补货建议，尚未披露是否覆盖采购合同谈判、供应商切换或跨仓库调拨。",
+    "customer": "目标使用者为企业中负责库存与采购的运营或计划团队；付费方大概率是工厂、品牌商或大型贸易商的经营管理者。痛点频率为每日——每天需决定每个 SKU 是否补货、补多少，且错误判断直接转化为资金占用或缺货损失。官网未展示任何具名客户案例，采用证据缺失。",
+    "workflow": "输入端仅需一次销售/出货数据导出，无需实施项目即可在约一周内生成首份预测（公司披露 PoC 周期约一个月且免费）。每日闭环为五步：当日库存与在途信息→Q-Foundry 输出未来数日需求与不确定性区间→Agent Q 结合可用率目标、交期、最小起订、包装与成本生成具体订单建议→货物按交期到达→当日实际销量结算或损失。用户可查看 Agent Q 的解释并一键批准或修改，80–90% 的决策自动化为公司披露目标而非已验证结果。",
+    "business_model": "PoC 阶段免费（公司披露），但正式生产环境的定价页、订阅结构或按 SKU 计费模式均未在官网公开。无法判断是 SaaS 订阅、按预测 SKU 数阶梯计费，还是含硬件部署的一次性授权；单位经济推断：若自有硬件推理成本显著高于云 API，毛利结构可能与纯软件 AI 公司不同，但目前无数据支撑，仅为条件式推断。",
+    "traction": "公司披露 Q-Foundry 已预训练于 250 万产品与 15 亿数据点，但数据来源（自有历史、合作客户、公开数据集）未说明。官网无客户 logo 墙、无具名案例、无收入或 ARR 数据。当前可确认的牵引力仅为 Pre-Seed 融资本身及免费 PoC 获客漏斗的搭建，尚未有第三方验证的采用规模。",
+    "moat": "相对通用大模型（GPT-4 类）做库存预测，SOLISTIQ 的差异化在于：(1) 领域预训练——15 亿库存相关数据点形成的 Q-Foundry 基础模型，对 SKU 级补货场景的适配深度；(2) 欧洲数据主权叙事，自有硬件部署，对合规敏感客户有吸引力；(3) 多因素联合优化（阶梯价、MOQ、仓储成本）而非单一预测精度。壁垒条件：若竞品能用通用模型加少量领域微调达到相近精度，且客户对数据驻留要求放松，护城河将收窄。",
+    "funding_read": "本轮被公司标注为 Pre-Seed（官网），融资记录中轮次字段为 Other；投资方含个人天使（Kohrmann、Seelig、Metzger、Dubosq）与机构 Superangels、May Ventures，未见明确领投。资金用途未披露。该阶段说明团队已完成模型预训练与 PoC 流程设计，下一步里程碑大概率是首批付费客户签约与收入确认。",
+    "risks": "1) 若 24% 降误差与 15–25% 降库存仅为特定数据条件下的结果，客户实际品类结构（高周转、长尾、强促销）差异可能导致 ROI 不达预期，免费 PoC 向付费转化率低。2) 库存优化赛道已有 Kinaxis、o9、Blue Yonder 及多家德国本土玩家（如 ALEAS、myinvenio），若 SOLISTIQ 仅以预测精度为卖点而无端到端工作流锁定，易被头部 WMS 供应商的 AI 模块以捆绑方式压制。",
+    "takeaway": "SOLISTIQ 把「基础模型 + 领域数据预训练」直接落到 SKU 级补货这一高频、可量化、ROI 易算的场景，并用免费 PoC（一周出结果）大幅降低决策门槛——对 AI 创业者而言，选一个每天发生、误差可立即用库存天数或缺货损失度量的任务，比追求通用智能更易证明价值。",
+    "watch_next": "未来两个季度内是否出现 3 个以上具名付费客户及可引用的库存/缺货改善数据；Q-Foundry 是否开放 API 或嵌入现有 WMS 而非独立 SaaS；以及自有硬件推理的边际成本是否随 SKU 数线性增长，决定定价模型能否支撑毛利。",
+    "citations": [
+      {
+        "label": "SOLISTIQ 官网 – 产品与 PoC 描述",
+        "url": "https://www.solistiq.com/"
+      },
+      {
+        "label": "Funding.tech.eu – 融资记录与产品摘要",
+        "url": "https://funding.tech.eu/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4"
+      }
+    ]
+  },
+  "en": {
+    "summary": "SOLISTIQ builds Q-Foundry, a domain-specific foundation model for demand forecasting, and Agent Q, an explainable auto-replenishment layer, targeting industrial and commercial companies' SKU-level inventory and ordering decisions.",
+    "judgment": "If the company-reported 24 % forecast-error reduction and 15–25 % inventory reduction hold in heterogeneous client portfolios, SOLISTIQ addresses a high-frequency, quantifiable pain point in working capital; however, both figures remain self-reported with no third-party audit or published case study to corroborate them.",
+    "replaces": "Manual reorder-point and ABC-classification rules in legacy WMS/ERP, plus the purchasing-manager experience loop of judging order quantities and safety stock category by category.",
+    "segment": "Mid-to-large manufacturing, branded-goods, and trading companies that manage wide SKU portfolios with tiered pricing, minimum-order-quantity constraints, and multi-supplier lead-time variability.",
+    "product": "Q-Foundry is pre-trained on 2.5 million products and over 1.5 billion data points (company-reported); it captures trends, seasonality, and outliers, and ingests external signals such as weather, holidays, and search-trend data. Downstream, Agent Q converts forecasts into concrete order suggestions that jointly optimise tiered pricing, minimum quantities, storage costs, and availability targets, with a human-approval step. The model is developed in Germany and runs on SOLISTIQ's own hardware in Würzburg, positioned as an EU-sovereignty offering. Current scope ends at order recommendation; procurement contracting, supplier substitution, and cross-warehouse transfer are not documented.",
+    "customer": "Day-to-day users are inventory-planning or purchasing teams inside a single enterprise; the economic buyer is likely an operations or finance director responsible for working capital. The pain recurs daily—every SKU requires a make/order/no-order decision, and a wrong call translates immediately into either stockout loss or excess carrying cost. No named customer logos or case studies appear on the site; adoption evidence is absent.",
+    "workflow": "Onboarding requires a one-time export of sales/shipping data; no implementation project is needed. A free proof-of-concept (company-reported, ≈ 1 month) replays the client's last several months day-by-day: (1) stock and open deliveries at day t; (2) Q-Foundry outputs forecast and uncertainty band; (3) Agent Q factors availability target, lead time, MOQ, packaging, and cost to produce a specific order quantity; (4) goods arrive after lead time; (5) actual demand at day t either depletes stock or results in lost sales; the cycle repeats at t+1. The user reviews Agent Q's explanation and approves or overrides. 80–90 % automation is a company-stated target, not a measured figure.",
+    "business_model": "The PoC is free (company-reported). Production pricing, subscription tiers, per-SKU billing, or hardware-licence structures are not published. Unit-economics inference is conditional: if inference runs on owned hardware at a marginal cost that scales linearly with SKU count, gross margin structure may differ from a pure cloud-AI SaaS; no data currently supports or refutes this.",
+    "traction": "The only confirmed signal is the Pre-Seed financing itself and the funnel design around a free one-week PoC. The 2.5 M-product / 1.5 B-datapoint training corpus is company-reported; its provenance (proprietary, partner, public) is unstated. No revenue, ARR, client count, or third-party validation is available in the captured evidence.",
+    "moat": "Versus generic LLMs applied to forecasting, SOLISTIQ's differentiation rests on (1) domain pre-training depth—1.5 B inventory-specific data points baked into Q-Foundry; (2) EU data-sovereignty positioning with on-premises hardware; (3) multi-factor joint optimisation (MOQ, tiered pricing, storage cost) rather than single-metric forecast accuracy. The moat is conditional: if a general model plus light fine-tuning achieves comparable precision and client data-residency requirements relax, the differentiation narrows quickly.",
+    "funding_read": "The company labels the round Pre-Seed on its site; the funding record lists stage as 'Other.' Investors include individual angels (Kohrmann, Seelig, Metzger, Dubosq) and funds Superangels and May Ventures; no explicit lead is identified. Use of proceeds is undisclosed. The stage signals that model pre-training and PoC workflow are complete; the next milestone is almost certainly first paid-client contracts and revenue recognition.",
+    "risks": "1) If the 24 % error reduction and 15–25 % inventory reduction are achievable only in favourable data regimes, heterogeneous client portfolios with high-turnover, long-tail, or heavy-promotion SKUs may see materially lower ROI, depressing PoC-to-paid conversion. 2) Established players (Kinaxis, o9, Blue Yonder, and German-local tools such as ALEAS) bundle AI forecasting inside broader supply-chain suites; without end-to-end workflow lock-in, SOLISTIQ risks being commoditised as a forecasting API bolted on to incumbent WMS platforms.",
+    "takeaway": "Picking a daily, high-frequency task whose error is immediately measurable in inventory days or stockout cost—then pairing a domain foundation model with a zero-friction free PoC (one-week result, no implementation project)—is a repeatable pattern for AI founders who need to prove value before asking for a long sales cycle.",
+    "watch_next": "Whether 3+ named paid customers with citable inventory/stockout-improvement numbers appear within two quarters; whether Q-Foundry is exposed via API or embedded in existing WMS versus a standalone SaaS; and whether owned-hardware inference marginal cost scales linearly with SKU count, which will determine whether the pricing model can sustain gross margins.",
+    "citations": [
+      {
+        "label": "SOLISTIQ official site – product, PoC, and Q-Foundry descriptions",
+        "url": "https://www.solistiq.com/"
+      },
+      {
+        "label": "Funding.tech.eu – round record and one-line product description",
+        "url": "https://funding.tech.eu/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "SOLISTIQ develops AI models that enable industrial and commercial companies to predict their sales and optimize inventory levels.",
+      "checked_on": "2026-11-28"
+    },
+    {
+      "url": "https://www.solistiq.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "SOLISTIQ – KI-Bestandsplanung mit eigenem Foundation Model Zum Inhalt springen SOLISTIQ erhält 2,2 Mio. € Pre-Seed-Finanzierung Presse SOLISTIQ erhält 2,2 Mio. € Pre-Seed-Finanzierung → Lösung Technologie FAQ Unternehmen Über uns Blog Kontakt Karriere Deutsch English Gespräch vereinbaren Lösung Technologie FAQ Unternehmen Über uns Blog Kontakt Karriere Sprache Deutsch English Gespräch vereinbaren → Weniger Bestand. Bessere Lieferfähigkeit. Voll automatisiert. Demo entdecken Gespräch vereinbaren ↓ Für jeden Artikel die richtige Menge – von der Prognose bis zur Bestellung KI-gestützte Prognosen Mit Q‑Foundry : 24 % weniger Prognosefehler. Automatische Bestellvorschläge Optimiert über alle Faktoren gleichzeitig statt Regel für Regel: Staffelpreise, Mindestmengen, Lagerkosten und mehr. Produkt-ID Bestellmenge Geschätzte Kosten PF-0555 118 168,01 € PF-0556 75 69,46 € PF-0557 56 592,64 € Produkt-ID Bestellmenge Geschätzte Kosten PF-0555 118 168,01 € PF-0556 75 69,46 € PF-0557 56 592,64 € Umsetzung mit Agent Q Jede Entscheidung transparent: erklärt von Agent Q , freigegeben von Ihnen. Wie entwickelt sich die Nachfrage in den nächsten 4 Wochen? Agent Q Stabil bei ca. 200–236 Einheiten pro Woche. Wie entwickelt sich die Nachfrage in den nächsten 4 Wochen? Agent Q Stabil bei ca. 200–236 Einheiten pro Woche. Konkrete Ergebnisse. Bestandsreduzierung 15–25 % 15 – 25 % weniger Fehlbestände 20–50 % 20 – 50 % Automatisierung 80–90 % 80 – 90 % KI-Souveränität Eigenes europäisches KI-Modell, entwickelt in Deutschland, betrieben auf eigener Hardware in Würzburg. Erste Prognosen in Tagen Ohne Einführungsprojekt: Ein Datenexport genügt, der Proof of Concept ist kostenfrei. Q‑Foundry Millionen Artikel. Ein Modell. Schematische Darstellung Unser Foundation Model Q‑Foundry hat von Millionen von Artikeln gelernt, wie Nachfrage funktioniert. Es erkennt Muster und Einflussfaktoren und schafft die Grundlage für präzise, datenbasierte Bestandsentscheidungen – sofort einsetzbar, ohne Vorlaufzeit. Vortrainiert auf 2,5 Mio. Produkten mit über 1,5 Mrd. Datenpunkten. Ein Modell für alle Artikel, statt eines pro Produkt. Präzise Prognosen ab dem ersten Tag, auch für neue und datenarme Artikel. Erkennt Trends, Saisonalität und Ausreißer. Bezieht externe Einflüsse ein: Wetter, Feiertage , Suchtrends. Gute Planung beginnt mit einer guten Frage. Bereit für intelligentes Bestands­management? Proof of Concept Kostenfrei für Sie ca. 1 Monat So funktioniert’s Ihr Pilotbetrieb Produktiveinsatz Sie sehen, was SOLISTIQ in Ihrem Lager bewirkt hätte, bevor Sie sich entscheiden. Dafür spielen wir Ihre letzten Monate Tag für Tag nach, mit genau den Informationen, die Sie damals hatten. Ihr Aufwand dabei: Abverkaufsdaten bereitstellen und ein kurzes Gespräch über Ihre Bestellregeln. 1. Stand am Tag t Bestand, offene Lieferungen und alle Verkäufe bis zu diesem Tag. Keine späteren Ist-Werte. 2. Prognose SOLISTIQ Bedarf und Unsicherheitsband für die kommenden Tage, aus den bis dahin bekannten Daten. 3. Bestellentscheidung SOLISTIQ Verfügbarkeitsziel, Lieferzeit, Mindestmenge, Verpackung, Kosten: Bestellen? Wie viel? 4. Lieferung Die bestellte Menge trifft nach der Lieferzeit ein. 5. Nachfrage des Tages Die tatsächlichen Verkäufe des Tages werden bedient oder gehen verloren. Tag t + 1 · derselbe Ablauf, aktualisiert um die Verkäufe von Tag t Gespräch vereinbaren Demo entdecken Inventory Intelligence at Scale KI-gestützte Bestandsoptimierung mit dem Q‑Foundry-Modell von SOLISTIQ Produkt Lösung Technologie FAQ Themen Software für Bestandsoptimierung Absatzprognose mit KI Automatische Disposition Ratgeber Bestandsoptimierung Rechner Meldebestand Ratgeber Prognosegenauigkeit Unternehmen Über uns Blog Presse Karriere LinkedIn ↗ (öffnet in neuem Tab) Rechtliches Impressum Datenschutz Cookie-Richtlinie Cookie-Einstellungen Förderung © 2026 SOLISTIQ. Alle Rechte vorbehalten. Deutsch English Nach oben ↑ Wir verwenden Cookies (Cookie-Richtlinie) Damit läuft die Website und wir sehen, was wir verbessern können. Sie entscheiden, was aktiv ist. Notwendig Statistik Externe Inhalte Alle akzeptieren Ablehnen Auswahl erlauben"
+    }
+  ],
+  "round_id": "E653FF0A-A273-45C4-AA4B-F11F38BEBDD4",
+  "fingerprint": "845abe45054e4bdf49543e9a1c5375710f7c13c5de46d60571ff0b02c4765806",
+  "analyzed_at": "2026-11-28T05:06:49Z",
+  "research_version": 2,
+  "research_fingerprint": "6918cd6152a0c304d5c0e2eb6440c9aaad298ae31b81f071dd008eb79483e733",
+  "checked_on": "2026-11-28"
+}

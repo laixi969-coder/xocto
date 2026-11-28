@@ -1,0 +1,79 @@
+{
+  "company_id": "7B1C2A38-A4D3-43A7-B114-8BD0553A82C5",
+  "zh": {
+    "summary": "Pippa Labs 定位为「代理型网页」（agentic web）的基础设施层，为自主 AI 代理提供跨网络的安全通信、协作与交易协议。",
+    "judgment": "最关键的商业判断是：Pippa Labs 押注的不是单一代理应用，而是代理之间的互操作层；若代理生态尚未形成足够规模的网络效应，基础设施层将缺乏付费方。",
+    "replaces": "替代的是各代理开发者自行搭建点对点通信与交易通道的碎片化工作，以及依赖单一封闭平台生态的旧模式。",
+    "segment": "代理型网页基础设施 / agentic web infrastructure，细分方向为跨平台代理互操作与安全交易协议。",
+    "product": "官网当前仅呈现一份「Where Agents Meet」宣言，将产品定义为让「主权代理」（sovereign agents）安全通信、协作和交易的受信任基础设施（company-reported）。具体 API、协议规范、SDK 或技术文档页面均未在可抓取范围内出现，产品能力边界无法独立验证。",
+    "customer": "使用者最可能是构建 AI 代理的开发者或平台团队，付费方为需要让代理跨网络交易与协作的 B 端客户。痛点频率取决于代理间通信是否已成为日常开发瓶颈；目前官网无任何客户案例或使用场景描述，采用证据缺失。",
+    "workflow": "输入：各主权代理的身份与意图声明。操作：通过 Pippa Labs 基础设施层完成跨代理的安全通信、协作编排与交易结算。交付：代理间可验证的协作结果与交易记录。此流程目前仅见于公司宣言，尚无公开文档或代码示例可供核验。",
+    "business_model": "收费方式未披露。官网无定价页、无免费层说明、无企业报价入口。基于基础设施定位，单位经济可能依赖按调用量或按代理注册数计费，但此为推断而非公司确认。",
+    "traction": "已知采用证据为零：官网无客户 logo、无增长数据、无性能基准。融资说明 Phinsys 看好该方向，但不能等同于需求验证或收入证明。",
+    "moat": "与通用大模型相比，Pippa Labs 不做推理而做代理间协议层，壁垒条件取决于能否吸引足够多代理接入形成网络效应。与封闭平台内代理协作相比，「主权代理」跨平台交易若被验证可行，切换成本会构成一定壁垒；但协议本身若未被广泛采纳，壁垒不成立。",
+    "funding_read": "Pre-Seed 阶段说明公司处于最早期验证期，资金大概率用于完成协议开发与首批代理接入。下一里程碑可能是发布可运行的互操作协议或 SDK。资金具体用途未在公开信息中披露。",
+    "risks": "第一，代理间互操作若缺乏足够多参与方，网络效应无法启动，基础设施层将无付费需求；第二，大型模型厂商若自建代理通信协议，Pippa Labs 作为独立中间层可能被绕过。",
+    "takeaway": "早期 AI 基础设施公司若仅以宣言定位，宜在 Pre-Seed 前至少完成一个可运行的互操作 POC 与 2–3 个参考客户，否则融资后验证周期会显著拉长。",
+    "watch_next": "可验证的下一指标：官网是否上线协议文档、SDK 或 changelog；是否公布首批接入代理名称；是否出现按量计费的定价页。",
+    "citations": [
+      {
+        "label": "Pippa Labs 官网宣言",
+        "url": "https://www.pippa-labs.com/"
+      },
+      {
+        "label": "融资记录 – Pippa Labs Pre-Seed",
+        "url": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Pippa Labs positions itself as infrastructure for the 'agentic web,' providing cross-network secure communication, collaboration, and transaction protocols for autonomous AI agents.",
+    "judgment": "The critical commercial bet is that Pippa Labs is not building a single agent application but an interoperability layer between agents; if the agent ecosystem has not yet reached sufficient network scale, the infrastructure layer will lack paying customers.",
+    "replaces": "It replaces the fragmented work of agent developers building ad-hoc point-to-point communication and transaction channels, as well as the older pattern of relying on a single closed platform ecosystem.",
+    "segment": "Agentic-web infrastructure, specifically cross-platform agent interoperability and secure transaction protocols.",
+    "product": "The website currently presents only a 'Where Agents Meet' manifesto, defining the product as trusted infrastructure enabling sovereign agents to communicate, collaborate, and transact securely (company-reported). No API reference, protocol specification, SDK, or technical documentation was available in the retrieved pages, so the functional boundary of the product cannot be independently verified.",
+    "customer": "The likely users are developers or platform teams building AI agents; the payer is a B2B customer needing cross-network agent transactions and collaboration. Pain-point frequency depends on whether agent-to-agent communication has already become a routine development bottleneck; the site contains no customer cases or use-scenario descriptions, so adoption evidence is absent.",
+    "workflow": "Input: identity and intent declarations from each sovereign agent. Operation: the Pippa Labs infrastructure layer mediates secure cross-agent communication, collaborative orchestration, and transaction settlement. Output: verifiable collaboration results and transaction records between agents. This flow appears only in the company manifesto; no public documentation or code sample was available for verification.",
+    "business_model": "Pricing model is not disclosed. The site has no pricing page, no free-tier description, and no enterprise-quoted entry point. Based on the infrastructure positioning, unit economics may depend on per-call or per-agent-registration fees, but this is inference, not company confirmation.",
+    "traction": "Known adoption evidence is zero: the site shows no customer logos, growth metrics, or performance benchmarks. The funding round indicates Phinsys is bullish on the direction, but that does not constitute demand validation or revenue proof.",
+    "moat": "Compared with general-purpose LLM providers, Pippa Labs does not build inference models but an agent-to-agent protocol layer; the moat condition is whether enough agents can be attracted to form a network effect. Versus closed-platform agent collaboration, if sovereign cross-platform transactions are validated, switching costs create some barrier; but if the protocol is not widely adopted, no barrier holds.",
+    "funding_read": "The Pre-Seed stage signals the earliest validation phase; capital will most likely fund protocol development and first agent onboarding. The next milestone is publishing a runnable interoperability protocol or SDK. Specific use of proceeds is not disclosed in public information.",
+    "risks": "First, if agent interoperability lacks sufficient participants, the network effect cannot kick in and the infrastructure layer will have no paying demand. Second, if large model vendors build their own agent communication protocols, Pippa Labs as an independent middleware may be bypassed.",
+    "takeaway": "An early-stage AI infrastructure company that positions itself with only a manifesto should ideally deliver a runnable interop POC and 2–3 reference customers before raising Pre-Seed, or the post-funding validation cycle will stretch significantly.",
+    "watch_next": "Verifiable next indicators: whether the site publishes protocol docs, an SDK, or a changelog; whether the first onboarded agent names are announced; whether a usage-based pricing page appears.",
+    "citations": [
+      {
+        "label": "Pippa Labs manifesto page",
+        "url": "https://www.pippa-labs.com/"
+      },
+      {
+        "label": "Funding record – Pippa Labs Pre-Seed",
+        "url": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Pippa Labs develops infrastructure that enables AI agents to securely communicate, collaborate and transact across the web.",
+      "checked_on": "2026-11-28"
+    },
+    {
+      "url": "https://www.pippa-labs.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "Pippa Labs · Where Agents Meet Manifesto Where Agents Meet Trusted infrastructure for the agentic web, enabling sovereign agents to securely communicate, collaborate and transact. Read our manifesto © 2026 Pippa Labs Ltd. All rights reserved Contact LinkedIn Privacy policy"
+    }
+  ],
+  "round_id": "5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+  "fingerprint": "2cbcb10427195ecdffe972f37f559b4bae00d6abf32673f665816e60c0300240",
+  "analyzed_at": "2026-11-28T05:10:52Z",
+  "research_version": 2,
+  "research_fingerprint": "c2b605cab9ee38c3389c6b61cbe8cbd826abea16de08ef6e6cb264d6349c2fc1",
+  "checked_on": "2026-11-28"
+}

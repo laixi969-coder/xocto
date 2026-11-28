@@ -1,0 +1,111 @@
+{
+  "company_id": "08B8075B-5779-41CF-8102-A8704CAD8CCD",
+  "zh": {
+    "summary": "面向德国及欧盟中小企业的 AI 代理构建平台，通过先做运营流程咨询再部署代理的方式，帮传统行业把日常工作流变成可自动化的数字组织孪生。",
+    "judgment": "把 AI 代理交付绑定在「先理解你的运营再动手」的咨询式模式上，用固定价格 + 平台订阅 + 按量计费三层结构降低中小企业采纳门槛；但每个客户前期投入重、回本周期长，规模增长受限于交付团队产能。",
+    "replaces": "替代中小企业中由行政人员、调度员、客服和运营主管手工完成的流程协调、文档检索、来电分派与跨系统数据搬运。",
+    "segment": "德国及欧盟 Mittelstand（中小企业）的 AI 代理自动化",
+    "product": "产品分两层。方法论层是六步交付流程：流程采集（可现场）→ 用例定义与边界划定 → 代理搭建与演示 → 系统部署与既有工具对接 → 并行运行（Human-in-the-Loop）→ 质量验收与上线。平台层是「KI-Baukasten」，公司披露包含：内部知识库问答（带来源标注）、模型无关的多代理管理（支持 Claude、Gemini、GPT、Mistral 及开源模型）、语音代理（来电接听与转派）、自定义能力注册、审计日志、文档与模板中心、既有系统对接（邮件、档案、ERP、电话）、角色权限与模型治理。托管在德国 EU 基础设施，公司声明不做客户数据模型训练，宣称 DSGVO 与 EU AI Act 合规。",
+    "customer": "使用者是中小企业（Mittelstand）的运营主管、行政与客服团队；付费者通常是企业主或运营负责人。公司披露的核心痛点是 Fachkräftemangel（技术人才短缺）、Margendruck（利润挤压）和 Bürokratie（官僚流程），这些是持续性日常压力而非一次性项目。首页强调「AI 不是您的第一优先级，运营才是」，把 AI 放在运营改善语境下而非技术升级。",
+    "workflow": "输入是客户现有系统的真实运营数据与隐性流程知识。操作由 ankerkern 创始团队（CEO Eva Jacob、COO Felix Behrenbeck、CTO Dr. Andreas Engler）亲自参与：先做流程采集（可现场），定义用例与边界，搭建代理并演示，然后部署客户实例、连接既有系统、进入并行运行，最后质量达标后切换上线。交付物是可运行的代理集合加上持续的平台订阅与按量计费。",
+    "business_model": "公司披露三层收费结构：一次性固定价格 Setup（K1: 5,000–8,000€；K2: 8,000–15,000€；K3: 15,000–30,000€，按系统数量与复杂度分档）；平台月订阅（Start 490€/月≤5 代理；Team 890€/月≤12；Betrieb 1,490€/月≤25；Unternehmen 起 3,490€/月≤70；Enterprise 不限，均用户数不限）；按量计费（代理实际处理的工作量，设预算上限，无自动加量）。年付有折扣。未披露毛利率、客户留存率或单位经济模型。",
+    "traction": "官网设有「已信赖 ankerkern 的客户」板块，但本次抓取未展示具体客户名称、行业或案例数据。研究缺口：无客户案例页、无技术文档、无公开收入或客户数量。融资记录（2026-11-27，投资方 Alois Müller Group，金额未披露）说明有外部资金注入，但不能据此推断收入水平或客户规模。",
+    "moat": "与通用 LLM 产品（如直接用 GPT 做 RAG）相比，ankerkeren 的壁垒在于：咨询式交付绑定（每个客户需现场流程采集和定制，复制成本高）、并行运行验证机制降低信任门槛、模型无关设计避免供应商锁定。但与通用 AI 代理平台（n8n、Microsoft Copilot Studio、SAP 内置代理）相比，其壁垒条件是中德中小企业对「有人帮你把流程跑通」的需求是否足够大，以及交付产能能否跟上需求增长。",
+    "funding_read": "本轮标记为「funding round」，阶段 Other，投资方为 Alois Müller Group，金额未披露，来源为 deutsche-startups.de，置信度 low。资金用途未知。单条记录不足以判断具体轮次或融资规模。下一里程碑可能包括：公开首批付费客户案例、扩大交付团队、或开放更多行业模板以减轻定制负担。",
+    "risks": "（1）交付产能瓶颈：每个客户需团队亲自做流程采集和代理搭建，K3 级项目定价 15,000–30,000€ 意味着高度定制化；团队扩张速度若跟不上客户增长，收入天花板明显。（2）中小企业付费意愿与 AI 预算波动：Mittelstand 对 AI 投入仍偏谨慎，若经济下行或 EU AI Act 合规成本上升，客户可能推迟采购或缩减预算。（3）平台差异化被通用工具侵蚀：若 Microsoft、SAP 等既有办公/ERP 套件内置代理功能，ankerkeren 独立平台价值可能被压缩。",
+    "takeaway": "把 AI 代理包装成「先理解你的运营再动手」的咨询 + 产品组合，用固定价格降低中小企业决策门槛，再用平台订阅和按量计费建立持续收入流。核心借鉴：不要卖工具，卖「我帮你把流程跑通」的结果，工具只是载体。",
+    "watch_next": "（1）是否公开首批付费客户名称与可量化 ROI 数据；（2）交付团队规模与人均客户产能（决定能否从项目制转向产品化）；（3）EU AI Act 正式实施后 ankerkern 的合规卖点是否转化为新增采购；（4）Alois Müller Group 是否追加投资或引入战略投资方。",
+    "citations": [
+      {
+        "label": "ankerkeren 官网首页（公司声明）",
+        "url": "https://www.ankerkern.de/"
+      },
+      {
+        "label": "ankerkeren 产品页（公司声明）",
+        "url": "https://www.ankerkern.de/produkt"
+      },
+      {
+        "label": "ankerkeren 定价页（公司声明）",
+        "url": "https://www.ankerkern.de/preise"
+      },
+      {
+        "label": "融资记录（funding.tech.eu）",
+        "url": "https://funding.tech.eu/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A"
+      }
+    ]
+  },
+  "en": {
+    "summary": "An AI-agent build platform for German and EU mid-sized companies (Mittelstand) that pairs operational process consulting with a model-agnostic agent platform to turn everyday workflows into an automatable digital organisational twin.",
+    "judgment": "The critical commercial bet is binding AI-agent delivery to a consultative, on-site process-mapping workflow, tiered pricing (fixed setup + subscription + usage-based), which lowers the adoption barrier for SMEs but caps scale at delivery-team capacity.",
+    "replaces": "Manual process coordination, document retrieval, call triage and cross-system data shuffling currently done by admin staff, dispatchers, customer-service teams and operations managers in mid-sized firms.",
+    "segment": "AI-agent automation for German and EU Mittelstand (mid-sized enterprises)",
+    "product": "Two layers. The methodology layer is a six-step delivery: on-site or remote process capture → use-case scoping and boundary definition → agent build and demo → system deployment and legacy-tool integration → parallel run (human-in-the-loop) → quality gate and go-live. The platform layer, the «KI-Baukasten», company-reported features include: internal knowledge-base Q&A with source attribution, model-agnostic multi-agent management (Claude, Gemini, GPT, Mistral, open-source), voice agents (inbound call handling and routing), custom capability registration, audit logs, document and template centre, integration with mail, filing, ERP and phone systems, role/permission management, and model governance. Hosted on German EU infrastructure; the company states it does not train models on customer data and claims DSGVO and EU AI Act compliance.",
+    "customer": "Users are operations heads, admin and customer-service teams in mid-sized companies; the payer is typically the owner or COO. Company-reported core pain points are Fachkräftemangel (skilled-labour shortage), Margendruck (margin compression) and Bürokratie (bureaucratic overhead) — persistent operational pressures, not one-off projects. The homepage positions AI as a tool for operational improvement, not a technology upgrade.",
+    "workflow": "Input: the customer's live operational data and tacit process knowledge. Execution: the founding team (CEO Eva Jacob, COO Felix Behrenbeck, CTO Dr. Andreas Engler) personally runs process capture (optionally on-site), defines use cases and boundaries, builds and demos the agent, deploys the customer instance, connects legacy systems, runs a parallel period with human oversight, then switches to production after quality thresholds are met. Output: a running agent set plus ongoing platform subscription and per-usage billing.",
+    "business_model": "Company-reported three-tier structure: one-time fixed-price setup (K1 €5,000–8,000; K2 €8,000–15,000; K3 €15,000–30,000, tiered by system count and complexity); platform subscription (Start €490/mo ≤5 agents; Team €890/mo ≤12; Betrieb €1,490/mo ≤25; Unternehmen from €3,490/mo ≤70; Enterprise unlimited — all tiers unlimited users); and pay-per-use for agent executions with a fixed budget cap per use case. Annual prepayment discounts available. Gross margin, customer retention and unit economics are not disclosed.",
+    "traction": "The site has a «customers already trusting ankerkern» section, but the retrieved capture shows no named clients, industries, or case-study metrics. Research gaps: no customer-case page, no technical documentation, no public revenue or customer-count figures. The funding record (2026-11-27, investor Alois Müller Group, amount undisclosed) confirms external capital but does not validate revenue or customer scale.",
+    "moat": "Vs. general-purpose LLM products (e.g., DIY RAG on GPT), ankerkern's differentiation lies in the consultative on-site delivery (high replication cost per customer), the parallel-run validation that lowers trust barriers, and model-agnostic architecture that avoids vendor lock-in. Vs. generic agent platforms (n8n, Microsoft Copilot Studio, SAP embedded agents), the moat condition is whether German/EU SMEs genuinely need «someone to map my process for me» at scale, and whether delivery capacity can keep pace with demand.",
+    "funding_read": "Recorded as a «funding round», stage Other, investor Alois Müller Group, amount not disclosed, source deutsche-startups.de, confidence low. Use of funds unknown. A single record is insufficient to determine round type or total capital raised. Plausible next milestones: publishing first paid-client case studies, scaling the delivery team, or releasing industry-specific agent templates to reduce per-client customisation effort.",
+    "risks": "(1) Delivery-capacity bottleneck: each client requires the team to personally map processes and build agents; K3 pricing (€15,000–30,000) implies high customisation, so revenue is capped by team headcount. (2) SME budget volatility: Mittelstand AI spending remains cautious; a downturn or rising EU AI Act compliance costs could delay purchases or shrink budgets. (3) Platform commoditisation: if Microsoft or SAP embed agent capabilities into existing office/ERP suites, ankerkern's standalone platform value proposition narrows.",
+    "takeaway": "Package AI agents as «we understand your operations first, then we build» — a consultative-plus-product hybrid. Use a fixed-price setup to lower the SME decision threshold, then layer subscription and usage-based fees for recurring revenue. The core lesson: sell the outcome («your process is running»), not the tool.",
+    "watch_next": "(1) Whether the company publishes named paid clients with quantifiable ROI; (2) delivery-team headcount and per-consultant client throughput (determines project-to-product transition); (3) whether EU AI Act implementation turns ankerkern's compliance messaging into new purchase demand; (4) whether Alois Müller Group follows up with additional capital or co-invests with a strategic partner.",
+    "citations": [
+      {
+        "label": "ankerkeren homepage (company claim)",
+        "url": "https://www.ankerkern.de/"
+      },
+      {
+        "label": "ankerkeren product page (company claim)",
+        "url": "https://www.ankerkern.de/produkt"
+      },
+      {
+        "label": "ankerkeren pricing page (company claim)",
+        "url": "https://www.ankerkern.de/preise"
+      },
+      {
+        "label": "Funding record (funding.tech.eu)",
+        "url": "https://funding.tech.eu/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Ankerkern focuses on AI agents that automate workflows in medium-sized companies.",
+      "checked_on": "2026-11-28"
+    },
+    {
+      "url": "https://www.ankerkern.de/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "ankerkern. Der KI-Baukasten für den Mittelstand. Produkt Kunden ▾ Preise Sicherheit Über uns ▾ · Blog ☰ Erstgespräch Für mittelständische Unternehmen KI steht bei Ihnen nicht an erster Stelle. Ihr Betrieb tut es. Fachkräftemangel, Margendruck, Bürokratie: das sind echte unternehmerische Herausforderungen. Deshalb starten wir auch genau dort. Wir erfassen gemeinsam mit Ihnen Ihren echten Betriebsalltag und bauen daraus Ihren digitalen Organisations-Zwilling, auf dem KI-Agenten messbaren Mehrwert stiften. Erstgespräch. 45 Minuten. → So arbeiten wir → Danach wissen Sie, wie Sie KI sinnvoll in Ihrem Betrieb einsetzen. Lieber erst zuhören? Emma, unsere KI-Assistentin, erzählt Ihnen am Telefon alles über ankerkern. 030 863204914 Kunden, die bereits auf ankerkern vertrauen Profis am Werk Operatives Gründerteam. Verstehen. Befähigen. Selbst umsetzen. Wir kommen aus der Praxis und wissen, wie sich ein Montagmorgen auf der Baustelle anfühlt. Gleichzeitig wissen wir exakt, was KI heute real leisten kann und wie man sie effektiv einsetzt. Deshalb bringen wir die Technologie genau dort produktiv zum Einsatz, wo Fehler viel Zeit, Nerven und Marge fressen. Unser Ziel: Sie befähigen, KI Schritt für Schritt in Ihrem Unternehmen zu verankern. Eva Jacob · CEO Felix Behrenbeck · COO Dr. Andreas Engler · CTO Wer wir sind und was uns antreibt → Ihr Erstgespräch führen Sie direkt mit einem von uns. Methodik und Plattform Echter Mehrwert durch KI-Agenten im Realbetrieb. 01 Prozessaufnahme zuerst, auch vor Ort ▾ 02 Maßgeschneiderte KI-Agenten als Fundament für eine agentische Organisation ▾ 03 Messbare Qualität und Kostenkontrolle durch Parallelbetrieb im digitalen Organisations-Zwilling ▾ 04 Eine sichere All-in-One-Plattform, die bestehende Systeme verbindet ▾ Zum Produkt → KI-Baukasten DSGVO-konform auf Ihrer ankerkern Plattform. Sicherheit Trust-Center → Hosting in Deutschland DSGVO-konform EU AI Act konform Kein Modell-Training auf Ihren Daten ankerkern KI · Mittelstand ankerkern liefert die Methodik, damit KI-Agenten echten Mehrwert stiften, und den KI-Baukasten als sichere Plattform dafür. EU-Hosting, DSGVO und EU AI Act konform ab Tag 1. Navigation Produkt Preise Sicherheit & Vertrauen Über uns Veranstaltungen Karriere Blog Rechtliches Datenschutz Datenschutz Bewerbung Impressum Nutzungsbedingungen © 2026 ankerkern GmbH. Alle Rechte vorbehalten. Made in Germany"
+    },
+    {
+      "url": "https://www.ankerkern.de/produkt",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "Produkt · ankerkern Produkt Kunden ▾ Preise Sicherheit Über uns ▾ · Blog ☰ Erstgespräch Startseite › Produkt Produkt Erst verstehen, wie Ihr Betrieb wirklich arbeitet. Dann automatisieren. Eine Strategie ohne Werkzeug verstaubt als Konzept im Aktenordner. Ein Werkzeug ohne Strategie wird schnell zum zwölften IT-Tool, das im Alltag niemand nutzt. Unsere Erfahrung zeigt: Nur die enge Verzahnung von fundierter Methodik und eigener Plattform bringt KI in den echten Produktivbetrieb. Genau so verankern wir KI-Agenten in Ihrem Unternehmen, mit messbarem Mehrwert und voller Kontrolle. Ablauf In sechs Schritten zu Ihrem KI-Agenten. Phase 1 · Prozess- und Organisationsberatung 01 › KI-gestützte Prozessaufnahme Erhebung von implizitem Praxiswissen durch spezielle Fragetechniken sowie gemeinsame Erarbeitung eines optimierten Soll-Prozesses bei Ineffizienzen im Ist-Zustand. Auf Wunsch vor Ort. 02 › Definition des Anwendungsfalls Ermittlung des idealen Startpunktes anhand von Systembrüchen und Datenlage sowie Dokumentation aller Prozessgrenzen. 03 Agenten-Aufbau und Demo-Präsentation Gemeinsame Abstimmung von Input, Output, Prüfstärken und Entscheidungsfaktoren. Sie sehen den Agenten arbeiten, bevor er an Ihre Systeme kommt. ▼ Phase 2 · Technische Bereitstellung und Validierung 04 › Systembereitstellung Einrichtung der ankerkern Kundeninstanz, einschließlich Anbindung der bestehenden Systeme. 05 › Parallelbetrieb Der Agent läuft gegen echte Vorgänge, ohne in den laufenden Betrieb einzugreifen. Lückenlose Protokollierung, Kontrolle nach dem Human-in-the-Loop-Prinzip. 06 Qualitätsprüfung und Live-Freigabe Optimierung des Agenten im Parallelbetrieb, bis die Qualitätskriterien erfüllt sind. Dann aktive Go-Live-Schaltung. Die Plattform Der KI-Baukasten Zu Beginn übernehmen wir den Bau der ankerkern Agenten komplett für Sie. Das Fundament dafür ist der ankerkern KI-Baukasten, eine einzige, sichere Umgebung statt eines Sammelsuriums aus isolierten Einzeltools. 01 Chat mit Ihrer internen Wissensdatenbank Fragen zum eigenen Betrieb werden aus den hinterlegten Unterlagen beantwortet. Unter jeder Antwort steht, worauf sie beruht. 02 Modellagnostisch Claude, Gemini, GPT, Mistral oder Open Source. Sie wählen je Agent das Modell, mit dem er arbeitet. 03 Ein sicherer KI-Baukasten für Ihr Team Alle Agenten des Betriebs an einem Ort, mit Status, letzter Ausführung und Zuständigkeit. 04 Assistenzgestützte Agentenentwicklung Ein neuer Agent entsteht im Gespräch: Aufgabe beschreiben, Rückfragen beantworten, fertig. 05 Integration von Telefonie und Sprachausgabe Voice-Agenten nehmen Anrufe an und geben das Anliegen strukturiert weiter. 06 Selbst gebaute Fähigkeiten auf Abruf Wiederkehrende Handgriffe werden einmal beschrieben und stehen danach jedem Agenten zur Verfügung. 07 Ausführen, ändern und nachvollziehen an einem Ort Jeder Lauf ist protokolliert. Was ein Agent getan hat, lässt sich Schritt für Schritt nachlesen. 08 Zentrale Verwaltung von Dokumenten und Vorlagen Preislisten, Vorlagen und Richtlinien liegen an einer Stelle und sind für die Agenten nutzbar. 09 Anbindung von Bestandssystemen Postfach, Ablage, ERP und Telefonanlage werden angebunden, nicht abgelöst. 10 Rollen- und Berechtigungsmanagement Sie legen fest, wer welche Agenten sieht, startet und ändern darf. 11 Governance und Modell-Freigabeprozesse Welche Modelle im Haus erlaubt sind, entscheiden Sie. Nichts läuft ohne Freigabe. 12 Agenten arbeiten Hand in Hand mit Ihren Mitarbeitenden Die Organisation zeigt, welcher Agent in welcher Abteilung mitarbeitet und wer ihn verantwortet. Preise im Detail → ankerkern KI · Mittelstand ankerkern liefert die Methodik, damit KI-Agenten echten Mehrwert stiften, und den KI-Baukasten als sichere Plattform dafür. EU-Hosting, DSGVO und EU AI Act konform ab Tag 1. Navigation Produkt Preise Sicherheit & Vertrauen Über uns Veranstaltungen Karriere Blog Rechtliches Datenschutz Datenschutz Bewerbung Impressum Nutzungsbedingungen © 2026 ankerkern GmbH. Alle Rechte vorbehalten. Made in Germany"
+    },
+    {
+      "url": "https://www.ankerkern.de/preise",
+      "kind": "company_claim",
+      "role": "pricing",
+      "checked_on": "2026-11-28",
+      "status": "retrieved",
+      "text": "Preise · ankerkern Produkt Kunden ▾ Preise Sicherheit Über uns ▾ · Blog ☰ Erstgespräch Startseite › Preise Preise Transparente Kostenstruktur und unternehmensweite Lizenzierung Einmalig, Festpreis Vom ersten Gespräch bis zum Agenten im Parallelbetrieb Im Festpreis enthalten ✓ Prozessaufnahme ✓ Aufbau des digitalen Zwillings ✓ Bau des ersten Agenten ✓ Technische Anbindung Ihrer Systeme ✓ Begleiteter Parallelbetrieb K1 · Basis 5.000 bis 8.000 € · 1 System via Standard-Konnektor · Klar abgegrenzter Anwendungsfall · Geringe Varianz im Prozessablauf und strukturierte Datenlage K2 · Erweitert 8.000 bis 15.000 € · Bis zu 2 Systeme oder Entwicklung eines individuellen Konnektors, zum Beispiel für undokumentierte Altsysteme · Abteilungsübergreifende Anwendungsfälle · Mittleres Vorgangsvolumen K3 · Komplex 15.000 bis 30.000 € · Bis zu 3 Systeme oder Entwicklung mehrerer individueller Konnektoren · Abteilungs- oder filialübergreifende Prozessaufnahme · Hohe Komplexität durch hohes Volumen, viele Varianzen und uneinheitliche Datenlage Preis je Unternehmen · Nutzer unbegrenzt Plattform-Gebühr In der Plattform-Gebühr enthalten ✓ Unbegrenzte Nutzerzahl ✓ Bereitstellung und Betrieb ✓ Sicherheits-Monitoring ✓ Laufende Updates ✓ Hosting in der deutschen EU-Infrastruktur Start Produktive Agenten (Anwendungsfälle) bis 5 Plattform-Gebühr / Monat 490 € Jährliche Vorauszahlung 5.280 € / Jahr Team Produktive Agenten (Anwendungsfälle) bis 12 Plattform-Gebühr / Monat 890 € Jährliche Vorauszahlung 9.600 € / Jahr Betrieb Produktive Agenten (Anwendungsfälle) bis 25 Plattform-Gebühr / Monat 1.490 € Jährliche Vorauszahlung 16.080 € / Jahr Unternehmen Produktive Agenten (Anwendungsfälle) bis 70 Plattform-Gebühr / Monat ab 3.490 € Jährliche Vorauszahlung ab 37.680 € / Jahr Enterprise Produktive Agenten (Anwendungsfälle) unbegrenzt Plattform-Gebühr / Monat auf Anfrage Jährliche Vorauszahlung auf Anfrage Paket Produktive Agenten (Anwendungsfälle) Plattform-Gebühr / Monat Jährliche Vorauszahlung Start bis 5 490 € 5.280 € / Jahr Team bis 12 890 € 9.600 € / Jahr Betrieb bis 25 1.490 € 16.080 € / Jahr Unternehmen bis 70 ab 3.490 € ab 37.680 € / Jahr Enterprise unbegrenzt auf Anfrage auf Anfrage Pay-per-Use Verbrauchsabhängige Nutzung Neben Setup und Plattform-Lizenz wird abgerechnet, was die Agenten tatsächlich arbeiten, monatlich und nachvollziehbar je Vorgang. Für jeden Anwendungsfall gilt ein festes Budgetlimit, automatische Aufstockungen gibt es nicht. Alle Preise verstehen sich netto zzgl. Umsatzsteuer. Erstgespräch vereinbaren (45 Minuten) → ankerkern KI · Mittelstand ankerkern liefert die Methodik, damit KI-Agenten echten Mehrwert stiften, und den KI-Baukasten als sichere Plattform dafür. EU-Hosting, DSGVO und EU AI Act konform ab Tag 1. Navigation Produkt Preise Sicherheit & Vertrauen Über uns Veranstaltungen Karriere Blog Rechtliches Datenschutz Datenschutz Bewerbung Impressum Nutzungsbedingungen © 2026 ankerkern GmbH. Alle Rechte vorbehalten. Made in Germany"
+    }
+  ],
+  "round_id": "C6CF5262-CB99-4711-8DD2-A5CF27242A3A",
+  "fingerprint": "11b66b35e78eac77dd2513877844e23e7377916b6bd230b52ebd1b1116d35d9a",
+  "analyzed_at": "2026-11-28T05:11:36Z",
+  "research_version": 2,
+  "research_fingerprint": "426cf7d6e58594d375d8c865943cf599a9cf93259b67663a85a767525c3ed978",
+  "checked_on": "2026-11-28"
+}
