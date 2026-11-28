@@ -20,18 +20,18 @@ url: https://orchard.hackclub.com
 canonical_url: https://orchard.hackclub.com
 summary: Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://orchard.hackclub.com
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 142
-    forks: 12
-    open_issues: 22
+    stars: 148
+    forks: 15
+    open_issues: 24
   kind: product
 ---
 

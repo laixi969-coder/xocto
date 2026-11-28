@@ -21,18 +21,18 @@ canonical_url: https://kurocat.cc
 summary: KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++,
   802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kurocat.cc/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 701
-    forks: 73
-    open_issues: 17
+    stars: 771
+    forks: 83
+    open_issues: 22
   kind: product
 ---
 

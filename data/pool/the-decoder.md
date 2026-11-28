@@ -20,17 +20,17 @@ url: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for
 canonical_url: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant
 summary: AI agents now control part of DeepMind's compute for Gemini experiments
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 42
-    comments: 20
+    points: 56
+    comments: 28
   kind: news
 ---
 

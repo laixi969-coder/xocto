@@ -20,18 +20,18 @@ url: https://github.com/awslabs/codekb
 canonical_url: https://github.com/awslabs/codekb
 summary: Code understanding across every repository, for people and agents
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/awslabs/codekb
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 219
-    forks: 32
-    open_issues: 40
+    stars: 299
+    forks: 41
+    open_issues: 47
   kind: product
 ---
 

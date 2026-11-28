@@ -20,16 +20,16 @@ url: https://github.com/weiwenhao/dudu
 canonical_url: https://github.com/weiwenhao/dudu
 summary: 基于 DSH 的多智能体高效协作助手
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/weiwenhao/dudu
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 47
+    stars: 51
     forks: 0
     open_issues: 0
   kind: product

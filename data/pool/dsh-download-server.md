@@ -20,16 +20,16 @@ url: https://github.com/Jestions-dev/dsh-download-server
 canonical_url: https://github.com/Jestions-dev/dsh-download-server
 summary: 'DLS — DSH Download Server: a global, session-aware, persistent download queue for DeepSeek Harness.'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Jestions-dev/dsh-download-server
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 332
+    stars: 337
     forks: 0
     open_issues: 0
   kind: product

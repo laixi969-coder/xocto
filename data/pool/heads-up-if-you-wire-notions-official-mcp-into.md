@@ -20,16 +20,16 @@ url: https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_n
 canonical_url: https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into
 summary: Notion's official MCP inject hidden upsell instructions into agent context
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 51
+    points: 59
     comments: 22
   kind: news
 ---

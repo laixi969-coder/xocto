@@ -22,16 +22,16 @@ summary: Reflecting on recent global tech outages and CrowdStrike's push into AI
   guide explains how isolating virtual cards protects your AI subscriptions and cloud tools from single-point
   failures.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/laloli2145-star/coregold-usdt-vcc-system-resilience-agent-security-isolation-guide
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 54
+    stars: 68
     forks: 0
     open_issues: 0
   kind: product

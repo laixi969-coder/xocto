@@ -1,0 +1,110 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/solistiq-9ca67824",
+    "city": "Würzburg",
+    "country": "Germany",
+    "description": "SOLISTIQ develops AI models that enable industrial and commercial companies to predict their sales and optimize inventory levels.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "9CA67824-381E-483E-9BA8-4E4E3F4762EF",
+    "investors": [
+      "Business Angels",
+      "Jochen Seelig",
+      "May Ventures",
+      "Pierre Dubosq",
+      "Sebastian Kohrmann",
+      "Sebastian Metzger",
+      "Superangels"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "SOLISTIQ",
+    "rounds": [
+      {
+        "amountEur": 2200000,
+        "date": "2026-11-24",
+        "id": "E653FF0A-A273-45C4-AA4B-F11F38BEBDD4",
+        "investors": [
+          "Business Angels",
+          "Jochen Seelig",
+          "May Ventures",
+          "Pierre Dubosq",
+          "Sebastian Kohrmann",
+          "Sebastian Metzger",
+          "Superangels"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 49,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2200000,
+    "url": "https://funding.tech.eu/companies/9CA67824-381E-483E-9BA8-4E4E3F4762EF",
+    "website": "https://www.solistiq.com/"
+  },
+  "round": {
+    "amountEur": 2200000,
+    "amountEurStored": null,
+    "amountNative": 2200000,
+    "company": {
+      "city": "Würzburg",
+      "country": "Germany",
+      "founded": null,
+      "id": "9CA67824-381E-483E-9BA8-4E4E3F4762EF",
+      "name": "SOLISTIQ",
+      "pageUrl": "https://funding.tech.eu/companies/solistiq-9ca67824",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-24",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "E653FF0A-A273-45C4-AA4B-F11F38BEBDD4",
+    "investors": [
+      "Sebastian Kohrmann",
+      "Jochen Seelig",
+      "Superangels",
+      "Pierre Dubosq",
+      "May Ventures",
+      "Sebastian Metzger"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "deutsche-startups.de",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/E653FF0A-A273-45C4-AA4B-F11F38BEBDD4"
+  }
+}

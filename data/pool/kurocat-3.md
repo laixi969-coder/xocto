@@ -21,18 +21,18 @@ canonical_url: https://kurocat.org
 summary: KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative
   · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kurocat.org
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 1482
-    forks: 201
-    open_issues: 51
+    stars: 1790
+    forks: 251
+    open_issues: 73
   kind: product
 ---
 

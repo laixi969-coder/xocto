@@ -20,17 +20,17 @@ url: https://github.com/rxliuli/sim-drop
 canonical_url: https://github.com/rxliuli/sim-drop
 summary: Running iOS simulators in the macOS Finder sidebar
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/rxliuli/sim-drop
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 41
-    comments: 10
+    points: 61
+    comments: 16
   kind: product
 ---
 

@@ -22,18 +22,18 @@ summary: 'Antigravity Max (agy-max): All-in-one flagship workbench for Google An
   agy-fast accelerator, Codex-style search/Git/goals workflow, Prism optics, context & quota dashboard,
   multi-account & no-TUN proxy | Antigravity 2.0 满血全能增强工作台'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wangbingnan136/agy-max
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 110
+    stars: 150
     forks: 6
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

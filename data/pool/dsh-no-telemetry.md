@@ -21,16 +21,16 @@ canonical_url: https://github.com/scarletkc/dsh-no-telemetry
 summary: Turn off DeepSeek Harness telemetry and session-log uploads, strip identity headers - with a
   sandboxed packet-capture verify script.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/scarletkc/dsh-no-telemetry
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 43
+    stars: 48
     forks: 5
     open_issues: 0
   kind: product

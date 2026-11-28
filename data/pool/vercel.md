@@ -31,7 +31,7 @@ canonical_url: https://aicpb.com/product/Vercel/webid1D6F37139
 summary: Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more
   personalized web.
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-08-29T03:43:28Z'
+last_seen: '2026-11-28T03:55:59Z'
 status: watching
 sources:
 - aicpb
@@ -40,16 +40,13 @@ sources:
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Vercel/webid1D6F37139
-  seen_at: '2026-08-17T22:41:21Z'
+  seen_at: '2026-11-28T03:55:59Z'
   metrics:
     raw_value: 29.68M
     value: 29680000.0
     metric: visits
     mom_raw: -2.93%
     mom_percent: -2.93
-    boards:
-    - 代码辅助榜
-    - 全球总榜
   kind: product
 - source: github
   url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%403.0.2

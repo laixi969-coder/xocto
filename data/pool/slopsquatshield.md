@@ -22,16 +22,16 @@ summary: SlopSquatShield checks the packages that you or your AI coding agent in
   that don't exist or look like slopsquatting traps. It supports npm, PyPI and Maven, and it runs in your
   terminal, in AI agent hooks, on git commit and in your IDE.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/agivanttechnologies/SlopSquatShield
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 50
+    stars: 56
     forks: 41
     open_issues: 0
   kind: product

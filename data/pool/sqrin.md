@@ -20,17 +20,17 @@ url: https://sqrin.app
 canonical_url: https://sqrin.app
 summary: A better screen share for Mac
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sqrin.app
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 8
-    comments: 1
+    points: 13
+    comments: 6
   kind: product
 ---
 

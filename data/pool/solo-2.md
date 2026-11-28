@@ -21,16 +21,16 @@ canonical_url: https://github.com/lucas9801/solo
 summary: 'Solo: Warp-style terminal + full Zed code editor, for running Claude Code, Codex and other AI
   agents on Windows'
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lucas9801/solo
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 40
+    stars: 42
     forks: 1
     open_issues: 0
   kind: product

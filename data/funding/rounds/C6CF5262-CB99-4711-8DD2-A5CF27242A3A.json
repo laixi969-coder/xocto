@@ -1,0 +1,89 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/ankerkern-08b8075b",
+    "city": "Berlin",
+    "country": "Germany",
+    "description": "Ankerkern focuses on AI agents that automate workflows in medium-sized companies.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "08B8075B-5779-41CF-8102-A8704CAD8CCD",
+    "investors": [
+      "Alois Müller Group"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Ankerkern",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-11-27",
+        "id": "C6CF5262-CB99-4711-8DD2-A5CF27242A3A",
+        "investors": [
+          "Alois Müller Group"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 49,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 0,
+    "url": "https://funding.tech.eu/companies/08B8075B-5779-41CF-8102-A8704CAD8CCD",
+    "website": "https://www.ankerkern.de/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Berlin",
+      "country": "Germany",
+      "founded": null,
+      "id": "08B8075B-5779-41CF-8102-A8704CAD8CCD",
+      "name": "Ankerkern",
+      "pageUrl": "https://funding.tech.eu/companies/ankerkern-08b8075b",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-11-27",
+    "fx": null,
+    "id": "C6CF5262-CB99-4711-8DD2-A5CF27242A3A",
+    "investors": [
+      "Alois Müller Group"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "deutsche-startups.de",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/C6CF5262-CB99-4711-8DD2-A5CF27242A3A"
+  }
+}

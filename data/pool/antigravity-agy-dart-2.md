@@ -21,17 +21,17 @@ canonical_url: https://github.com/zou172866/Antigravity-agy-dart
 summary: Google Antigravity plugin that improves cache hits, keeps cache warm automatically, protects
   context quota, shows live context usage, rescues crashed sessions, and saves tokens.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zou172866/Antigravity-agy-dart
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 210
-    forks: 8
+    stars: 238
+    forks: 11
     open_issues: 4
   kind: product
 ---

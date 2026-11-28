@@ -1,0 +1,92 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/cynrise-5a87ebbc",
+    "city": "Aachen",
+    "country": "Germany",
+    "description": "Cynrise is developing a smart fuse box that uses AI to determine the electricity consumption of individual household appliances.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "5A87EBBC-7EDE-4031-B653-5058CA450451",
+    "investors": [
+      "NRW.BANK",
+      "Patrik Schlepuetz"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Cynrise",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-11-26",
+        "id": "8FE4030C-C0D2-4E97-A258-CB09AB1DD5D9",
+        "investors": [
+          "NRW.BANK",
+          "Patrik Schlepuetz"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/8FE4030C-C0D2-4E97-A258-CB09AB1DD5D9"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 49,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 0,
+    "url": "https://funding.tech.eu/companies/5A87EBBC-7EDE-4031-B653-5058CA450451",
+    "website": "https://www.cynrise.com/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Aachen",
+      "country": "Germany",
+      "founded": null,
+      "id": "5A87EBBC-7EDE-4031-B653-5058CA450451",
+      "name": "Cynrise",
+      "pageUrl": "https://funding.tech.eu/companies/cynrise-5a87ebbc",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-11-26",
+    "fx": null,
+    "id": "8FE4030C-C0D2-4E97-A258-CB09AB1DD5D9",
+    "investors": [
+      "Patrik Schlepuetz",
+      "NRW.BANK"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/8FE4030C-C0D2-4E97-A258-CB09AB1DD5D9",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "deutsche-startups.de",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/8FE4030C-C0D2-4E97-A258-CB09AB1DD5D9"
+  }
+}

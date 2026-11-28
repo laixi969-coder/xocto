@@ -21,18 +21,18 @@ canonical_url: https://pibot.space
 summary: 'Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use,
   browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pibot.space
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 659
-    forks: 92
-    open_issues: 5
+    stars: 681
+    forks: 100
+    open_issues: 6
   kind: product
 ---
 

@@ -22,17 +22,17 @@ summary: Self-hosted code review platform over GitLab, GitHub MRs/PRs. Prioritis
   review workspace, and AI review workflows that post inline findings back to the forge, using any OpenAI-compatible
   model you bring.
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://phonepe.github.io/arnold/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
     stars: 45
-    forks: 7
+    forks: 8
     open_issues: 5
   kind: product
 ---

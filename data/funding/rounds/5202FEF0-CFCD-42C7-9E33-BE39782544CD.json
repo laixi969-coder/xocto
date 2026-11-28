@@ -1,0 +1,93 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/pippa-labs-7b1c2a38",
+    "city": "London",
+    "country": "UK",
+    "description": "Pippa Labs develops infrastructure that enables AI agents to securely communicate, collaborate and transact across the web.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "7B1C2A38-A4D3-43A7-B114-8BD0553A82C5",
+    "investors": [
+      "Phinsys"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Pippa Labs",
+    "rounds": [
+      {
+        "amountEur": 596979,
+        "date": "2026-11-26",
+        "id": "5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+        "investors": [
+          "Phinsys"
+        ],
+        "rawRoundType": "pre-seed",
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 48,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 596979,
+    "url": "https://funding.tech.eu/companies/7B1C2A38-A4D3-43A7-B114-8BD0553A82C5",
+    "website": "https://www.pippa-labs.com/"
+  },
+  "round": {
+    "amountEur": 596979,
+    "amountEurStored": null,
+    "amountNative": 500000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "7B1C2A38-A4D3-43A7-B114-8BD0553A82C5",
+      "name": "Pippa Labs",
+      "pageUrl": "https://funding.tech.eu/companies/pippa-labs-7b1c2a38",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "GBP",
+    "date": "2026-11-26",
+    "fx": {
+      "asOf": "2026-11-26",
+      "rate": 0.83755,
+      "source": "ECB"
+    },
+    "id": "5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+    "investors": [
+      "Phinsys"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD",
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "finsmes.com",
+      "tier": "established"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/5202FEF0-CFCD-42C7-9E33-BE39782544CD"
+  }
+}

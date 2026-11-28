@@ -8,3 +8,13 @@
   tier: behavioural
   fact: 'Turn off DeepSeek Harness telemetry and session-log uploads, strip identity headers - with a
     sandboxed packet-capture verify script. | repository stars: 43'
+- id: ev-37ba40f98a65950e
+  project_slug: dsh-no-telemetry
+  url: https://github.com/scarletkc/dsh-no-telemetry
+  title: dsh-no-telemetry
+  published_at: '2026-11-26T00:53:37Z'
+  collected_at: '2026-11-28T03:55:23Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Turn off DeepSeek Harness telemetry and session-log uploads, strip identity headers - with a
+    sandboxed packet-capture verify script. | repository stars: 48'

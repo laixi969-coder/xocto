@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50657957
 canonical_url: https://news.ycombinator.com/item?id=50657957
 summary: How do you find meaning of life at 41?
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50657957
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 56
-    comments: 99
+    points: 67
+    comments: 117
   kind: news
 ---
 

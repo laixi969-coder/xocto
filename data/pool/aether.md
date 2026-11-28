@@ -22,16 +22,16 @@ summary: 'Aether — open-source AI agent for Android (Kotlin, Jetpack Compose).
   bash, file and MCP tools, subagents, offline Alpine/Proot runtime, Termux and Shizuku support. Signed
   APK releases. ИИ-агент на телефон: нейросеть на Android с инструментами.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://aether-aiagent.github.io/aether/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 41
+    stars: 42
     forks: 2
     open_issues: 0
   kind: product

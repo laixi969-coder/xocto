@@ -20,16 +20,16 @@ url: https://github.com/HarsH-1877/Dev-Mem
 canonical_url: https://github.com/HarsH-1877/Dev-Mem
 summary: Local-first SQLite knowledge graph for AI coding agents
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/HarsH-1877/Dev-Mem
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 7
+    points: 8
     comments: 0
   kind: product
 ---

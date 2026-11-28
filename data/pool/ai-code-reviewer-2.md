@@ -21,16 +21,16 @@ canonical_url: https://github.com/HiroshiBakker3123/ai-code-reviewer/releases
 summary: 'AI code reviewer: finds bugs, security issues, suggests fixes. | ai code reviewer windows tool
   utility | Portable x64 prebuilt for Windows'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HiroshiBakker3123/ai-code-reviewer/releases
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 62
+    stars: 61
     forks: 0
     open_issues: 0
   kind: product

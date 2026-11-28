@@ -21,17 +21,17 @@ canonical_url: https://adrien-ninet.com/unslop
 summary: 'Free Claude skill: unslop your project with its own icons and banner drawn by Limora AI, plus
   a shareable before/after video.'
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://adrien-ninet.com/unslop
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 89
-    forks: 3
+    stars: 97
+    forks: 4
     open_issues: 0
   kind: product
 ---

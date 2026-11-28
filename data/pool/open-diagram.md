@@ -20,18 +20,18 @@ url: https://open-diagram.dev
 canonical_url: https://open-diagram.dev
 summary: Python building blocks for dense architecture diagrams that check their own layout
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://open-diagram.dev
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 418
-    forks: 34
-    open_issues: 0
+    stars: 430
+    forks: 35
+    open_issues: 1
   kind: product
 ---
 

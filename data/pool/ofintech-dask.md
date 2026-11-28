@@ -22,18 +22,18 @@ summary: 'OfinTech Desk reads your ledger, spreadsheets, documents and inbox, do
   fills in your own Excel and Word files with sources for every figure, and asks a person before it sends
   or changes anything. Bring any model: a cloud provider with your own key, or a local model.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ofintech.ai/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 71
-    forks: 10
-    open_issues: 14
+    stars: 74
+    forks: 11
+    open_issues: 13
   kind: product
 ---
 

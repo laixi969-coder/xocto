@@ -20,17 +20,17 @@ url: https://janlukas.blog/posts/ai-self-hosting
 canonical_url: https://janlukas.blog/posts/ai-self-hosting
 summary: AI made self-hosting fun again
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://janlukas.blog/posts/ai-self-hosting
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 421
-    comments: 227
+    points: 1107
+    comments: 509
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://karpathy.ai/usaciv/
 canonical_url: https://karpathy.ai/usaciv
 summary: The USA as a Civilizations-esque map
 first_seen: '2026-11-27T04:16:00Z'
-last_seen: '2026-11-27T04:16:00Z'
+last_seen: '2026-11-28T03:55:19Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://karpathy.ai/usaciv/
-  seen_at: '2026-11-27T04:16:00Z'
+  seen_at: '2026-11-28T03:55:19Z'
   metrics:
-    points: 70
-    comments: 56
+    points: 73
+    comments: 59
   kind: news
 ---
 

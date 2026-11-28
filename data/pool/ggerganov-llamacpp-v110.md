@@ -453,16 +453,16 @@ summary: "## Overview\r\n\r\nllama.cpp v1.1.0 adds the Inkling 2 family (base, M
   \ with left factoring (#29557)\r\n951d465f5 llama: move moe-cache code out of llama-graph (#32157)\r\
   \n2d8a32502 CUDA: split the PAD_REFLECT_1D grid to stay within the HIP grid limit (#32179)"
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    reactions: 36
+    reactions: 47
   kind: news
 ---
 

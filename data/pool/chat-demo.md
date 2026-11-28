@@ -20,17 +20,17 @@ url: https://deepseek-ai.github.io/chat-demo/
 canonical_url: https://deepseek-ai.github.io/chat-demo
 summary: Chat Demo
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://deepseek-ai.github.io/chat-demo/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 5491
-    forks: 1319
+    stars: 5525
+    forks: 1330
     open_issues: 1
   kind: product
 ---

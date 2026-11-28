@@ -21,18 +21,18 @@ canonical_url: https://rustanything.ai
 summary: Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with
   TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://rustanything.ai
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 10308
-    forks: 836
-    open_issues: 20
+    stars: 10837
+    forks: 883
+    open_issues: 67
   kind: product
 ---
 

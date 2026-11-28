@@ -20,17 +20,17 @@ url: https://github.com/uxpilot-ai/user-interview-skill
 canonical_url: https://github.com/uxpilot-ai/user-interview-skill
 summary: Free agent skill that writes neutral 1:1 user interview guides for Claude Code, Codex and Cursor
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/uxpilot-ai/user-interview-skill
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 121
-    forks: 5
+    stars: 119
+    forks: 6
     open_issues: 0
   kind: product
 ---

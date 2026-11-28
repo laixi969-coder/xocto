@@ -21,18 +21,18 @@ canonical_url: https://capri-core.com
 summary: Capri — an AI desktop companion for Windows with local/API models, Hugging Face, optional voice,
   memory and permission-based desktop tools.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://capri-core.com/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 413
-    forks: 51
-    open_issues: 35
+    stars: 421
+    forks: 53
+    open_issues: 41
   kind: product
 ---
 

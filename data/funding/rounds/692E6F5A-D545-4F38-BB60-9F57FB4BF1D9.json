@@ -1,0 +1,99 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/eventfirst-2674e916",
+    "city": "Berlin",
+    "country": null,
+    "description": "eventfirst is developing an AI platform that automates the organization of corporate events – from finding venues and service providers to bookings and participant management.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "2674E916-130A-4580-91F9-847497DD79F3",
+    "investors": [
+      "Booom",
+      "General Catalyst",
+      "Johannes Reck"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "eventfirst",
+    "rounds": [
+      {
+        "amountEur": 4500000,
+        "date": "2026-11-25",
+        "id": "692E6F5A-D545-4F38-BB60-9F57FB4BF1D9",
+        "investors": [
+          "Booom",
+          "General Catalyst",
+          "Johannes Reck"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/692E6F5A-D545-4F38-BB60-9F57FB4BF1D9"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4500000,
+    "url": "https://funding.tech.eu/companies/2674E916-130A-4580-91F9-847497DD79F3",
+    "website": "https://www.eventfirst.com/en-us"
+  },
+  "round": {
+    "amountEur": 4500000,
+    "amountEurStored": null,
+    "amountNative": 4500000,
+    "company": {
+      "city": "Berlin",
+      "country": null,
+      "founded": null,
+      "id": "2674E916-130A-4580-91F9-847497DD79F3",
+      "name": "eventfirst",
+      "pageUrl": "https://funding.tech.eu/companies/eventfirst-2674e916",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-25",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "692E6F5A-D545-4F38-BB60-9F57FB4BF1D9",
+    "investors": [
+      "Booom",
+      "Johannes Reck",
+      "General Catalyst"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/692E6F5A-D545-4F38-BB60-9F57FB4BF1D9",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "deutsche-startups.de",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/692E6F5A-D545-4F38-BB60-9F57FB4BF1D9"
+  }
+}

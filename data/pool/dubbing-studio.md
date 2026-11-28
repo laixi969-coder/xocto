@@ -21,17 +21,17 @@ canonical_url: https://github.com/ShirleyRodrigues6287/dubbing-studio/releases
 summary: 'Voiceover studio: 50+ voices, cloning, emotions, lip-sync. | ai voiceover voiceover voices clone
   emotions | Portable x64 prebuilt for Windows'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ShirleyRodrigues6287/dubbing-studio/releases
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 66
-    forks: 0
+    stars: 65
+    forks: 1
     open_issues: 0
   kind: product
 ---

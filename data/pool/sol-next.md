@@ -22,16 +22,16 @@ summary: 'Sol Next 9.0.1 (Dawn Orbit · 晨曦轨道): Voice-First 4-Screen Andr
   Built-In Keys / BYOK) — Full-Duplex Live Voice, Generative UI, Magic Cue, AppFunctions, 4-Finger Real-Time
   Gaming, On-Device Privacy Firewall & Auto-OTA'
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://chongyangzhang92-hub.github.io/Sol-Next/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 45
+    stars: 56
     forks: 0
     open_issues: 0
   kind: product

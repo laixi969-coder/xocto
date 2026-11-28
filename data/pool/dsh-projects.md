@@ -22,16 +22,16 @@ summary: '探索人与 AI 的最佳协作方式 · Exploring the best way for pe
   an open-source plugin for DeepSeek Harness: state a goal in one sentence, it asks what is unclear, runs
   the tasks in parallel, and brings finished work back to you.'
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hovocope135-tech/DSH-projects
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 506
+    stars: 529
     forks: 14
     open_issues: 2
   kind: product

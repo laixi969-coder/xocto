@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMipwFBVV95cUxObW0xbld4XzczY2RrRG5qME
 canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxObW0xbld4XzczY2RrRG5qMEszVjJRWTR0WmtPVWREZVdILVRfbnNTQ2wtUllBRzQzVEFPMml0OXpwRGxwN0hjZXhBTFItZ3VEcXdLZ3NtZG5oMzNhbFdxRFVoR1RjaUlnWGstcUJKeVlqdnlvTmlSVUNkTk16OFNTaElENUI0QjdUYWgyNkZvQ28wRnJwa25jUFlLUG42dnQ4ZU1JZjZfRQ?oc=5
 summary: AI开发跨越产品商业化门槛 贝尔科技善用TAIWAN AI RAP降低部署与维运成本 DIGITIMES
 first_seen: '2026-11-27T04:16:54Z'
-last_seen: '2026-11-27T04:16:54Z'
+last_seen: '2026-11-28T03:55:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipwFBVV95cUxObW0xbld4XzczY2RrRG5qMEszVjJRWTR0WmtPVWREZVdILVRfbnNTQ2wtUllBRzQzVEFPMml0OXpwRGxwN0hjZXhBTFItZ3VEcXdLZ3NtZG5oMzNhbFdxRFVoR1RjaUlnWGstcUJKeVlqdnlvTmlSVUNkTk16OFNTaElENUI0QjdUYWgyNkZvQ28wRnJwa25jUFlLUG42dnQ4ZU1JZjZfRQ?oc=5
   seen_at: '2026-11-27T04:16:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxPeGxVU2pTRmhhSnM4YWpLR1I3NVRWWnU1akhlTy13RFh5TERBRG1iTGVQNlFMUThLNmxrMkZOSDF0Yzhxd0pXZnU2cVpyNHM1ZEZVQTYyV1N0YjFCcHRWQUljdHA3QzRTc0RQMEhLdTIwWFJLLWR1LWVTQTlyM0xpY1N2Z3M3OTA1NkNfWFFGWEQ3bTNyXzcxc0dQSHNNQQ?oc=5
+  seen_at: '2026-11-28T03:55:57Z'
   metrics: {}
   kind: news
 ---

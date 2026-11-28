@@ -21,16 +21,16 @@ canonical_url: https://pixelailabs.com
 summary: Fix melted, blurry far faces in MiniMax H3 videos in ComfyUI. No re-render, original audio kept.
   Workflow + H3 Face Size Fade node by PixelAI Labs.
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pixelailabs.com
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 107
+    stars: 110
     forks: 9
     open_issues: 1
   kind: product

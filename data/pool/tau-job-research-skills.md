@@ -21,16 +21,16 @@ canonical_url: https://get-tau.com
 summary: 'LinkedIn job search skills for AI chat: CV briefs, search plans and evidence-based shortlists.
   Codex guides, optional Apify MCP, and Claude Code setup notes.'
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://get-tau.com
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 86
+    stars: 88
     forks: 3
     open_issues: 0
   kind: product

@@ -21,16 +21,16 @@ canonical_url: https://github.com/EL4CTEO/shrink-anything
 summary: 'Less code, same tests passing: delete the dead code, files, dependencies and assets in any codebase,
   and keep each cut only if your own tests still pass.'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/EL4CTEO/shrink-anything
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 348
+    stars: 396
     forks: 21
     open_issues: 0
   kind: product

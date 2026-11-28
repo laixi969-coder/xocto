@@ -22,16 +22,16 @@ summary: 'Orama Lake: the sovereign AI stack. Use AI to easily Design, Train, an
   models, agents, workflows, and warehouses to prod in minutes. MIT-licensed AI infrastructure that runs
   everywhere. Free, sovereign AI, for everyone.'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://orama.com/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 46
+    stars: 51
     forks: 4
     open_issues: 1
   kind: product

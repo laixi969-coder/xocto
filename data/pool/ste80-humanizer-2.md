@@ -21,18 +21,18 @@ canonical_url: https://skills.sh/Dodaios/ste80-humanizer
 summary: 'STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100
   (Simplified Technical English), the method Andrej Karpathy shared.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://skills.sh/Dodaios/ste80-humanizer
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 1157
+    stars: 1169
     forks: 82
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

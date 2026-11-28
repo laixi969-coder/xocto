@@ -20,17 +20,17 @@ url: https://github.com/roan-maverick/tradingview-indicator-for-ai-agents
 canonical_url: https://github.com/roan-maverick/tradingview-indicator-for-ai-agents
 summary: Tradingview IndicatorBuilt for AI agents
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/roan-maverick/tradingview-indicator-for-ai-agents
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 391
-    forks: 66
+    stars: 395
+    forks: 67
     open_issues: 0
   kind: product
 ---

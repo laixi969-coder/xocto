@@ -1,0 +1,41 @@
+---
+slug: saudi-arabia-to-launch-ai-powered-personal-assistant-for-eve
+name: Saudi Arabia to launch AI-powered personal assistant for every citizen in early 2027
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQVXY0UkU2MzB2QlJhbnNoVzVtMjV6dVlDNDVPUnNqSGVNR1ZwRjY2WXAwbFJPTFpXRVJaOHVZd3RUaGozTjdDUmoxOGc5NW44NDVSeUNHRFkxWnRHaEd5V2t2UjNYQ0dnWHNuVjI2REhCdzZNZng3ZDZheXVfSDlYZ1hSODhRUm9WRWlyUXFaaWtiM1ZPNEUweUZvbTNDUlprdTZ6WVhRdHJJc19kRzBOV3FERXE2NXNpeWViU0VvR2w5WmZJSF9lUVJXdFBIVXfSAeQBQVVfeXFMTTJqTEVYUk5qUkt2QnZwU2xCd2hTV1hQN3lUcjl1Nk01WDdoUVRKS19iQ0JtWnd5UVNEU1RuQUpMakVLN0k1NEprdHlhbWtMcDMxMjcxemg3NHRZMFVnN3NST0lwVThkOEQ5SGZQaTBlaFdSbjBVX18xOG4xTlc2aXNnMklncldYTUVIM1BnRml1S2hkWWN3a0w1OU1XTWdZX2xIYkpVZXo3U1R0QnYwSHNaRlFNWkdFNzRyQkhFZ2V1d2VrQ3JIUVJuYkNIbVhiLTJlMmtiVG1TNDNhTmM4eEJXcTVF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQVXY0UkU2MzB2QlJhbnNoVzVtMjV6dVlDNDVPUnNqSGVNR1ZwRjY2WXAwbFJPTFpXRVJaOHVZd3RUaGozTjdDUmoxOGc5NW44NDVSeUNHRFkxWnRHaEd5V2t2UjNYQ0dnWHNuVjI2REhCdzZNZng3ZDZheXVfSDlYZ1hSODhRUm9WRWlyUXFaaWtiM1ZPNEUweUZvbTNDUlprdTZ6WVhRdHJJc19kRzBOV3FERXE2NXNpeWViU0VvR2w5WmZJSF9lUVJXdFBIVXfSAeQBQVVfeXFMTTJqTEVYUk5qUkt2QnZwU2xCd2hTV1hQN3lUcjl1Nk01WDdoUVRKS19iQ0JtWnd5UVNEU1RuQUpMakVLN0k1NEprdHlhbWtMcDMxMjcxemg3NHRZMFVnN3NST0lwVThkOEQ5SGZQaTBlaFdSbjBVX18xOG4xTlc2aXNnMklncldYTUVIM1BnRml1S2hkWWN3a0w1OU1XTWdZX2xIYkpVZXo3U1R0QnYwSHNaRlFNWkdFNzRyQkhFZ2V1d2VrQ3JIUVJuYkNIbVhiLTJlMmtiVG1TNDNhTmM4eEJXcTVF?oc=5
+summary: Saudi Arabia to launch AI-powered personal assistant for every citizen in early 2027 Gulf News
+first_seen: '2026-11-28T03:55:57Z'
+last_seen: '2026-11-28T03:55:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQVXY0UkU2MzB2QlJhbnNoVzVtMjV6dVlDNDVPUnNqSGVNR1ZwRjY2WXAwbFJPTFpXRVJaOHVZd3RUaGozTjdDUmoxOGc5NW44NDVSeUNHRFkxWnRHaEd5V2t2UjNYQ0dnWHNuVjI2REhCdzZNZng3ZDZheXVfSDlYZ1hSODhRUm9WRWlyUXFaaWtiM1ZPNEUweUZvbTNDUlprdTZ6WVhRdHJJc19kRzBOV3FERXE2NXNpeWViU0VvR2w5WmZJSF9lUVJXdFBIVXfSAeQBQVVfeXFMTTJqTEVYUk5qUkt2QnZwU2xCd2hTV1hQN3lUcjl1Nk01WDdoUVRKS19iQ0JtWnd5UVNEU1RuQUpMakVLN0k1NEprdHlhbWtMcDMxMjcxemg3NHRZMFVnN3NST0lwVThkOEQ5SGZQaTBlaFdSbjBVX18xOG4xTlc2aXNnMklncldYTUVIM1BnRml1S2hkWWN3a0w1OU1XTWdZX2xIYkpVZXo3U1R0QnYwSHNaRlFNWkdFNzRyQkhFZ2V1d2VrQ3JIUVJuYkNIbVhiLTJlMmtiVG1TNDNhTmM4eEJXcTVF?oc=5
+  seen_at: '2026-11-28T03:55:57Z'
+  metrics: {}
+  kind: news
+---
+
+# Saudi Arabia to launch AI-powered personal assistant for every citizen in early 2027
+
+Saudi Arabia to launch AI-powered personal assistant for every citizen in early 2027 Gulf News
+
+## 笔记
+
+

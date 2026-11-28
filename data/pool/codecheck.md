@@ -20,17 +20,17 @@ url: https://www.commbank.com.au/codecheck
 canonical_url: https://commbank.com.au/codecheck
 summary: Claude Code and Codex plugin that runs an LLM (AI) powered static security review of source code.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.commbank.com.au/codecheck
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 42
-    forks: 11
+    stars: 45
+    forks: 12
     open_issues: 21
   kind: product
 ---

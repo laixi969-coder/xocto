@@ -20,17 +20,17 @@ url: https://github.com/tarqmamdouh/agent-theater
 canonical_url: https://github.com/tarqmamdouh/agent-theater
 summary: Your AI agents, live on a pixel-art stage. Works with Claude Code.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tarqmamdouh/agent-theater
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 188
-    forks: 17
+    stars: 293
+    forks: 25
     open_issues: 1
   kind: product
 ---

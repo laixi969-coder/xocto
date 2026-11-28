@@ -22,18 +22,18 @@ summary: OmniMux — Local AI content commerce workbench for product videos, ads
   Built-in product & asset library, inspiration teardown, infinite multimodal canvas, and timeline editor
   for macOS & Windows.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://omnimux.ai
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 146
-    forks: 3
-    open_issues: 11
+    stars: 147
+    forks: 4
+    open_issues: 9
   kind: product
 ---
 

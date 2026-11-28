@@ -1,0 +1,41 @@
+---
+slug: funding-wrap-mattersai-vegapay-green-aero-raise-fresh-capita
+name: 'Funding Wrap: Matters.AI, Vegapay, Green Aero raise fresh capital'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXhVV3Q1Y2thaldLYWlwd2FibnZFM1lnLW56LXRfRFRxREZyQTZnQnZ6RmxGU0xCb3NLdTluZHZhUm1vTmlpRXljNHZnaU85M29JMVR4d3p5eXBrU2RsV3dLN00tVGxBM2NPc3A0cko4OUpVaVFJQjFtMnVZWGVFTGxLRE1GZWx0NlVkVHNCWVdmR1lWa0p2Uk9xc2w0MFhtTEVBUkxsaU5WWUVuWTJ3SWNwZV9hSHh5T014QWgteUxjNUk4Z0FJZXNsVTdjeFpq0gHWAUFVX3lxTE5jNGhmZF9rVktoNjdNbHN0NHVvQ1F3M25CS0czZGpFQXVvM2NFajlzWC1HcDNkbXp5NVBKbzVmdHB1bnU4aXVOclVCQnRMcV91eUYzSWlrUEl1Y2N0ZGhOT1UyNHJSX2Zxa3JQTjB4RkhDX3d2RFRCSEVwbjZiZThKcjMxbHhtV09tcnhnSm0yV3A4NWtQcmJ5NU9aVXYyTVFkSFhxNkdiQjVUU0xYY1lxX2JLa1o4RTZkMmd3SVBSd3VTZkh2c2RzbnNSUHQ0bUd2dGdjRWc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXhVV3Q1Y2thaldLYWlwd2FibnZFM1lnLW56LXRfRFRxREZyQTZnQnZ6RmxGU0xCb3NLdTluZHZhUm1vTmlpRXljNHZnaU85M29JMVR4d3p5eXBrU2RsV3dLN00tVGxBM2NPc3A0cko4OUpVaVFJQjFtMnVZWGVFTGxLRE1GZWx0NlVkVHNCWVdmR1lWa0p2Uk9xc2w0MFhtTEVBUkxsaU5WWUVuWTJ3SWNwZV9hSHh5T014QWgteUxjNUk4Z0FJZXNsVTdjeFpq0gHWAUFVX3lxTE5jNGhmZF9rVktoNjdNbHN0NHVvQ1F3M25CS0czZGpFQXVvM2NFajlzWC1HcDNkbXp5NVBKbzVmdHB1bnU4aXVOclVCQnRMcV91eUYzSWlrUEl1Y2N0ZGhOT1UyNHJSX2Zxa3JQTjB4RkhDX3d2RFRCSEVwbjZiZThKcjMxbHhtV09tcnhnSm0yV3A4NWtQcmJ5NU9aVXYyTVFkSFhxNkdiQjVUU0xYY1lxX2JLa1o4RTZkMmd3SVBSd3VTZkh2c2RzbnNSUHQ0bUd2dGdjRWc?oc=5
+summary: 'Funding Wrap: Matters.AI, Vegapay, Green Aero raise fresh capital ET Entrepreneur'
+first_seen: '2026-11-28T03:55:57Z'
+last_seen: '2026-11-28T03:55:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXhVV3Q1Y2thaldLYWlwd2FibnZFM1lnLW56LXRfRFRxREZyQTZnQnZ6RmxGU0xCb3NLdTluZHZhUm1vTmlpRXljNHZnaU85M29JMVR4d3p5eXBrU2RsV3dLN00tVGxBM2NPc3A0cko4OUpVaVFJQjFtMnVZWGVFTGxLRE1GZWx0NlVkVHNCWVdmR1lWa0p2Uk9xc2w0MFhtTEVBUkxsaU5WWUVuWTJ3SWNwZV9hSHh5T014QWgteUxjNUk4Z0FJZXNsVTdjeFpq0gHWAUFVX3lxTE5jNGhmZF9rVktoNjdNbHN0NHVvQ1F3M25CS0czZGpFQXVvM2NFajlzWC1HcDNkbXp5NVBKbzVmdHB1bnU4aXVOclVCQnRMcV91eUYzSWlrUEl1Y2N0ZGhOT1UyNHJSX2Zxa3JQTjB4RkhDX3d2RFRCSEVwbjZiZThKcjMxbHhtV09tcnhnSm0yV3A4NWtQcmJ5NU9aVXYyTVFkSFhxNkdiQjVUU0xYY1lxX2JLa1o4RTZkMmd3SVBSd3VTZkh2c2RzbnNSUHQ0bUd2dGdjRWc?oc=5
+  seen_at: '2026-11-28T03:55:57Z'
+  metrics: {}
+  kind: news
+---
+
+# Funding Wrap: Matters.AI, Vegapay, Green Aero raise fresh capital
+
+Funding Wrap: Matters.AI, Vegapay, Green Aero raise fresh capital ET Entrepreneur
+
+## 笔记
+
+

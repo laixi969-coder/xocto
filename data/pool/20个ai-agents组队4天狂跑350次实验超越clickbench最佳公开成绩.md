@@ -20,7 +20,7 @@ url: https://www.qbitai.com/2026/11/513053.html
 canonical_url: https://qbitai.com/2026/11/513053.html
 summary: Quickwit查询总耗时降31%，最高降87%
 first_seen: '2026-11-27T04:16:33Z'
-last_seen: '2026-11-27T04:16:33Z'
+last_seen: '2026-11-28T03:55:49Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -28,6 +28,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/11/513053.html
   seen_at: '2026-11-27T04:16:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/11/513163.html
+  seen_at: '2026-11-28T03:55:49Z'
   metrics: {}
   kind: news
 ---

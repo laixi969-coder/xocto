@@ -21,17 +21,17 @@ canonical_url: https://github.com/nemo-crypto/agent
 summary: AI agent workflows with Next.js, Go and OpenAPI, plus an EVM wallet tracker for scheduled token
   inflow/outflow reports. AI 全栈开发实战与 Go 多链聪明钱地址监控：每日采集、本地存储、资金流日报。
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nemo-crypto/agent
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 44
-    forks: 38
+    stars: 51
+    forks: 43
     open_issues: 1
   kind: product
 ---

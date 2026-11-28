@@ -20,16 +20,16 @@ url: https://github.com/kenzz-devv/open-webui-talora-ai-workspace
 canonical_url: https://github.com/kenzz-devv/open-webui-talora-ai-workspace
 summary: Streamlined workspace for organizing and running AI workflows in one place.
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kenzz-devv/open-webui-talora-ai-workspace
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 200
+    stars: 159
     forks: 0
     open_issues: 0
   kind: product

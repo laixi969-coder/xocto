@@ -22,18 +22,18 @@ summary: 'Claude Code skills that turn your PC into an animation studio: 3D cart
   + Remotion), word-synced green-screen captions, Minecraft short scripts and multi-agent Minecraft story
   videos. No AI video generator.'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.youtube.com/@UntoldAnimationYT
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 350
-    forks: 41
-    open_issues: 3
+    stars: 378
+    forks: 45
+    open_issues: 4
   kind: product
 ---
 

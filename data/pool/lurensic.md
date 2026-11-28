@@ -20,16 +20,16 @@ url: https://lurensic.com
 canonical_url: https://lurensic.com
 summary: Deception-based defence against AI-driven attacks
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://lurensic.com
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 52
+    stars: 51
     forks: 1
     open_issues: 0
   kind: product

@@ -21,18 +21,18 @@ canonical_url: https://openartifact.net
 summary: Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on,
   and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openartifact.net/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 650
-    forks: 71
-    open_issues: 2
+    stars: 708
+    forks: 73
+    open_issues: 4
   kind: product
 ---
 

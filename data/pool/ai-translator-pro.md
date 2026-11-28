@@ -21,16 +21,16 @@ canonical_url: https://github.com/YaqozeRag72/ai-translator-pro/releases
 summary: 'AI translator: 100+ languages, document translation, voice input. | ai translator pro windows
   tool utility | Portable x64 prebuilt for Windows'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YaqozeRag72/ai-translator-pro/releases
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 57
+    stars: 56
     forks: 0
     open_issues: 0
   kind: product

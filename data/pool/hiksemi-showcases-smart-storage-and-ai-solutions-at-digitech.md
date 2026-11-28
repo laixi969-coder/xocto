@@ -1,0 +1,41 @@
+---
+slug: hiksemi-showcases-smart-storage-and-ai-solutions-at-digitech
+name: HIKSEMI Showcases Smart Storage and AI Solutions at DigiTech ASEAN Thailand 2026
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZIStIB7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZISg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZIStIB7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZISg?oc=5
+summary: HIKSEMI Showcases Smart Storage and AI Solutions at DigiTech ASEAN Thailand 2026 The Manila Times
+first_seen: '2026-11-28T03:55:57Z'
+last_seen: '2026-11-28T03:55:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZIStIB7AFBVV95cUxOU1R4cEx0aDRmZ3hfVlZRNDM5dllOajlaRDdDUk11RUZFV3hlWjdTQVJ3anFJM2lBbXVycFJBakdXcnh5Zm5EQnJYdnJ0V3N1VGdKS1ItTmZ0UVlIQ0NRM2FiTFBsdFR5RWhNYVZJYXR4di1MVGJvY1k1WU93VGRKcnpETHpuZWRORVA4aVNDa0hfVVF5YXFMTWxsSUNHbkVsR3R3LXdPRG9HQ2s4clJ6ZkFva1VqV1ZQdTd0aXpFRi11ZDlUWnczT0pMNkc4NFliNmJQaFVjY0lvYkxMbng4UllyMzRiRGF2T2ZISg?oc=5
+  seen_at: '2026-11-28T03:55:57Z'
+  metrics: {}
+  kind: news
+---
+
+# HIKSEMI Showcases Smart Storage and AI Solutions at DigiTech ASEAN Thailand 2026
+
+HIKSEMI Showcases Smart Storage and AI Solutions at DigiTech ASEAN Thailand 2026 The Manila Times
+
+## 笔记
+
+

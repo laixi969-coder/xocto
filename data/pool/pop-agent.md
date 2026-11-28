@@ -22,17 +22,17 @@ summary: 'PopAgent local web UI for your coding agents: watch the reasoning stre
   mid-turn, manage models and tools. Works with pi, Codex, Claude Code, OpenCode and DSH. Sessions stay
   the engine''s own files — no database, no account.'
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pop.xs25.cn/
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 129
-    forks: 0
+    stars: 152
+    forks: 1
     open_issues: 1
   kind: product
 ---

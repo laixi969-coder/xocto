@@ -22,16 +22,16 @@ summary: 'End-to-end AI vertical short-drama agent pipeline (Storyboard v6 + Yij
   + Jianying/CapCut Pro Draft & Frame-Level QC): 37 scripts turning AI video generation into a compilable,
   testable production workflow. AI 竖屏短剧/漫剧全链路工业化编导套装。'
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/shiz81463/vertical-drama-director-skills
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 54
+    stars: 112
     forks: 0
     open_issues: 0
   kind: product

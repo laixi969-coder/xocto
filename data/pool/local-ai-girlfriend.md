@@ -21,16 +21,16 @@ canonical_url: https://github.com/ghuang64229/local-ai-girlfriend/releases
 summary: 'Local AI companion: personality, long-term memory, voice chat. Nothing leaves your PC. | ai-girlfriend
   companion local voice memory offline | Portable x64 prebuilt for Windows'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ghuang64229/local-ai-girlfriend/releases
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 62
+    stars: 61
     forks: 0
     open_issues: 0
   kind: product

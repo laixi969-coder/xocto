@@ -10,12 +10,20 @@ inspiration_en: Pixel games are back, but free asset packs make every title look
   another generic image generator—pack grid-aligned, editable, engine-ready sprites and sell that workflow
   to indie developers.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.spritefusion.com/pixel-art-gallery
 canonical_url: https://spritefusion.com/pixel-art-gallery
 summary: Generating Pixel Art Sprites
 first_seen: '2026-08-13T15:19:14Z'
-last_seen: '2026-08-13T23:03:00Z'
-status: analyzed
+last_seen: '2026-11-28T03:55:19Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -25,6 +33,14 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas
+  seen_at: '2026-11-28T03:55:19Z'
+  metrics:
+    points: 106
+    comments: 14
+  kind: news
 ---
 
 # spritefusion

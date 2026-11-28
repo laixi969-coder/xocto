@@ -22,18 +22,18 @@ summary: MCP server connecting AI assistants to the Spanish National Statistics 
   API. Enables access to official demographic, economic and social statistics, making it easy to search,
   retrieve and analyze reliable data using natural language.
 first_seen: '2026-11-27T04:16:07Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/es-ine/mcp
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 159
-    forks: 6
-    open_issues: 4
+    stars: 202
+    forks: 7
+    open_issues: 6
   kind: product
 ---
 

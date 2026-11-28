@@ -21,18 +21,18 @@ canonical_url: https://phonedriver.dev
 summary: Open-source MCP server and CLI that lets AI agents like Claude Code see and control Android and
   iOS phones.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://phonedriver.dev
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 404
-    forks: 39
-    open_issues: 1
+    stars: 412
+    forks: 40
+    open_issues: 0
   kind: product
 ---
 

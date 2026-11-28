@@ -21,18 +21,18 @@ canonical_url: https://github.com/INK-Q/agy-fast
 summary: 'Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns
   (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.'
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-27T04:16:07Z'
+last_seen: '2026-11-28T03:55:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/INK-Q/agy-fast
-  seen_at: '2026-11-27T04:16:07Z'
+  seen_at: '2026-11-28T03:55:23Z'
   metrics:
-    stars: 1758
-    forks: 99
-    open_issues: 22
+    stars: 2011
+    forks: 115
+    open_issues: 27
   kind: product
 ---
 
